@@ -20,11 +20,11 @@ bevy_log = "0.13.2"
 bevy_utils = "0.13.2"
 smallvec = "1.11.0"
 aery_macros = { path = "macros", version = "0.3.0-dev" }
-aquamarine = "0.3.2"
+aquamarine = "0.5.0"
 
 [dev-dependencies]
 bevy = "0.13.2"
-bevy_vector_shapes = "0.7"
+bevy_vector_shapes = { git = "https://github.com/ka-de/bevy_vector_shapes" }
 
 [features]
 default = ["aery"]
